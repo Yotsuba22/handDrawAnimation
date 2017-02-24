@@ -7,7 +7,10 @@
     
     <body>
         <i><h2>Learn how to draw traditional style animation!<h2><i>
-          <body style="background-color:Orange;">  
+          <body style="background-color:lightGreen;">  
+          
+           <%=image_tag("image_2.png", alt: "image 2")%>
+          
             <h3>
                  <%= link_to "Sign In",controller:"creates", action: "index" %>
                            <h3>
@@ -17,12 +20,16 @@
                                
                                <h3>
                  <%= link_to "Gallery",controller:"drawings", action: "index" %>
+                
                             <h3>
           
                      <h3>
-           <%= link_to "ABout this Website",controller:"information", action: "index" %>
+           <%= link_to "About this Website",controller:"information", action: "index" %>
                    <h3>
-           <%= link_to "Tutotrial",controller:"tutorial", action: "index" %>
+                       
+                       <h3>
+           <%= link_to "Tutotrial",controller:"tutorials", action: "index" %>
+           
                            <h3>
                 
 

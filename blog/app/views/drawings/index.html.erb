@@ -12,11 +12,17 @@
 
   <tbody>
     <% @drawings.each do |drawing| %>
+     <%=image_tag("image_2.png", alt: "image 2")%>
+
       <tr>
         <td><%= drawing.name %></td>
         <td><%= link_to 'Show', drawing %></td>
         <td><%= link_to 'Edit', edit_drawing_path(drawing) %></td>
+              
         <td><%= link_to 'Destroy', drawing, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%=image_tag("image_1.png", alt: "image 1")%>
+        
+
       </tr>
     <% end %>
   </tbody>
