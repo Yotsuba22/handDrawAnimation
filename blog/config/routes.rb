@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :log_in_paths
+  resources :logins
+  resources :log_ins
+  resources :logs
+  resources :signs
   resources :tutorials
   resources :information
   resources :creates

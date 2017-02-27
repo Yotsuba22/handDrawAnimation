@@ -1,0 +1,2 @@
+class LogInPath < ApplicationRecord
+end
