@@ -11,7 +11,7 @@
 
   <tbody>
     <% @information.each do |information| %>
- <%=image_tag("image_3.png", alt: "image 3")%>
+ <%= image_tag( root_url + "images/rss.png", size: "50x50", :alt => "rss feed") -%>
       <tr>
         <td><%= link_to 'Show', information %></td>
         <td><%= link_to 'Edit', edit_information_path(information) %></td>
